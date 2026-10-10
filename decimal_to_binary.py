@@ -6,7 +6,6 @@ except ValueError:
   b=0
 else:
   a=int(a)
-  b=int(b)
 
 if a not in [0,1]:
  k=int(a/2)
@@ -21,7 +20,7 @@ elif a==0:
 elif a==1:
   j="1"
 
-o=float("0."+str(b))
+o=float("0."+b)
 s=""
 for _ in range(8):
   l=o*2
