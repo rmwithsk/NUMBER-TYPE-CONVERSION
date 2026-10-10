@@ -6,7 +6,6 @@ except ValueError:
   b=0
 else:
   a=int(a)
-  b=int(b)
 
 p=[0,1,2,3,4,5,6,7]
 
@@ -21,7 +20,7 @@ if a not in p:
 else:
   j=str(p[a])
 
-o=float("0."+str(b))
+o=float("0."+b)
 s=""
 for _ in range(8):
   l=o*8
