@@ -23,6 +23,6 @@ def main(n):
       return(st1+"."+st2)
 
 if __name__ == "__main__":
-    main(n=input('Enter an octal number: ' + "\n"))
+    print(main(n=input('Enter an octal number: ' + "\n")))
 
   
